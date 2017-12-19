@@ -88,14 +88,15 @@ namespace Arcanoid
                     _direction = value;
             }
         }
+        public Vector2 MapCenter => new Vector2(WIDTH / 2 * TILESIZE, HEIGHT / 2 * TILESIZE);
 
         private Vector2 _direction;
         private Vector2 _oldDirection;
 
         public Game()
         {
-            Player = new Player();
-            Apple = new Apple(new Vector2(100, 60));
+            Player = new Player(MapCenter);
+            Apple = new Apple(GetRandom());
             Direction = Vector2.Right;
         }
         public void Run()
@@ -103,7 +104,7 @@ namespace Arcanoid
             while (true)
             {
                 Thread.Sleep(SPEED);                
-                var vertex = Player.NextVertex(Direction * TILESIZE);
+                Vector2 vertex = Player.NextVertex(Direction * TILESIZE);//новая позиция игрока
                 if (vertex == Apple.Position)
                 {
                     Player.Step(Direction * TILESIZE, true);

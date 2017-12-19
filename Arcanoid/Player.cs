@@ -13,21 +13,19 @@ namespace Arcanoid
         public Vector2 GetTail => Body.Peek();
         public Vector2 GetHead => Body.Last();
         public int GetLength => Body.Count;
-
-        public Apple Apple;
         
-        public Player()
+        public Player(Vector2 center)
         {
             Body = new Queue<Vector2>();
-            Body.Enqueue(new Vector2(300, 220));
-            Body.Enqueue(new Vector2(320, 220));
+            Body.Enqueue(center-Vector2.Left);
+            Body.Enqueue(center);
         }
 
-        public void Step(Vector2 vector,bool growUp)
+        public void Step(Vector2 direction,bool growUp)
         {
-            Body.Enqueue(NextVertex(vector));
+            Body.Enqueue(NextVertex(direction));
             if(!growUp)
-                Body.Dequeue();           
+                Body.Dequeue();//Если не растёт удаляем последний элемент очереди           
         }
 
         public Vector2 NextVertex(Vector2 vector)

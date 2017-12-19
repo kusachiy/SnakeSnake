@@ -8,3 +8,13 @@ C:\Users\hrusha\source\repos\Arcanoid\Arcanoid\obj\Debug\Arcanoid.csproj.Generat
 C:\Users\hrusha\source\repos\Arcanoid\Arcanoid\obj\Debug\Arcanoid.csproj.CoreCompileInputs.cache
 C:\Users\hrusha\source\repos\Arcanoid\Arcanoid\obj\Debug\Arcanoid.exe
 C:\Users\hrusha\source\repos\Arcanoid\Arcanoid\obj\Debug\Arcanoid.pdb
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\bin\Debug\Arcanoid.exe.config
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\bin\Debug\Arcanoid.exe
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\bin\Debug\Arcanoid.pdb
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.csprojResolveAssemblyReference.cache
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.Form1.resources
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.Properties.Resources.resources
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.csproj.GenerateResource.Cache
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.csproj.CoreCompileInputs.cache
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.exe
+E:\Биллиг В.А\Савельев А.В\SnakeSnake\Arcanoid\obj\Debug\Arcanoid.pdb
